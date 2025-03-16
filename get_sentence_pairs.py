@@ -14,6 +14,7 @@ import itertools
 import math
 import json
 
+# 使用GPU进行训练
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # print(device)
 
